@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  height: 100%;
+  padding: 10px;
+}
+
+.container-header {
+  margin-bottom: 35px;
+  text-align: right;
+}
+
+.container-footer {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.table {
+  display: table;
+  width: 100%;
+}
+
+.tr {
+  display: table-row;
+}
+
+.tr.bold {
+  font-weight: bold;
+}
+
+.tr:last-child .td {
+  border-bottom: 0;
+}
+
+.td {
+  display: table-cell;
+  padding: 2px;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.td > input {
+  width: 100%;
+}
+
+.td:last-child {
+  border-right: 0;
+}
+
+.page-count {
+  margin: 0 10px;
+}
